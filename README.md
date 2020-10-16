@@ -26,7 +26,7 @@ The output does not contain repeated pairs, even if some link appears on the sou
 File playerPageRank.py contains the PageRank function which its signature is: def playerPageRank(listOfPairs).<br/>
 The purpose of this function is to compute a PageRank score for tennis players on Wikipedia.<br/>
 listOfPairs is a list of lists in the format of the output of crawler described above - <br/>
-['https://en.wikipedia.org/wiki/Andy_Ram', https://en.wikipedia.org/wiki/Jonathan_Erlich']
+['https://en.wikipedia.org/wiki/Andy_Ram', https://en.wikipedia.org/wiki/Jonathan_Erlich']<br/>
 The function treats each inner list [X, Y] as a link from X to Y.<br/><br/>
 We use the random surfer model:<br/>
 * The graph nodes are all the URLs in the input.<br/>
